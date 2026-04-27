@@ -11,26 +11,40 @@
 
 <body>
     <header>
-        <h1>Página de <span id="titulo">Login</span></h1>
+
     </header>
     <main>
-        <form action="" id="Login">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
 
-            <div class="row mb-3" id="c-email">
-                <label class="col-sm-2 col-form-label" for="email">Email</label>
-                <input class="form-label" type="email" name="email" id="email">
-            </div>
-            
-            <div class="row mb-3" id="c-senha">
-                <label class="col-sm-2 col-form-label" for="senha">Senha</label>
-                <input class="form-label" type="password" name="senha" id="senha">
-            </div>
-            <div>
-                <p>Não possui conta?</p>
-            </div>
+                </div>
 
-            <button class="btn btn-outline-primary" type="submit">Enviar</button>
-        </form>
+                <div class="col shadow p-3 mb-5 bg-body-tertiary rounded ">
+
+                    <h1><span id="titulo">Login</span></h1>
+                    <form action="" id="Login">
+                        <div class="row mb-3" id="c-email">
+                            <label class="col-sm-2 col-form-label" for="email">Email</label>
+                            <input class="form-label w-50 p-1 h-25" type="email" name="email" id="email">
+                        </div>
+                        <div class="row mb-3" id="c-senha">
+                            <label class="col-sm-2 col-form-label" for="senha">Senha</label>
+                            <input class="form-label w-50 p-1 h-25" type="password" name="senha" id="senha">
+                        </div>
+                        <div class="toggle">
+                            <p>Não possui conta?</p>
+                        </div>
+                        <button class="btn btn-outline-primary" type="submit">Enviar</button>
+                    </form>
+
+                </div>
+
+                <div class="col">
+
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Todos os direitos reservados.</p>
