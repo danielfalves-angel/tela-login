@@ -13,5 +13,5 @@ Array.from(forms).forEach(form => {// essa linha transforma o forms em um array 
         }
 
         form.classList.add('was-validated')
-    }, false)
+    }, false)//finaliza o addEventListners
 });
